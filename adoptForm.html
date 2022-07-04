@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pet Shelter Lebanon - Home</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="form.css" type="text/css" rel="stylesheet">
+   
+</head>
+<body style="background-color:rgb(232, 216, 138);">
+    <div class="mainlogo">
+        <div class="logo" style="left: 0%;">
+            <a href="http://127.0.0.1:5500/home.html"><img src="images/Pet Shelter Logo.jpeg" alt="logo" width="200" height="120"></a>
+        </div>
+    <div class="text">
+        <h1>Save a Life, Adopt a Pet!</h1>
+      </div>
+    </div>
+
+     <div class="navbar" style="align-items: center;">
+        <a href="http://127.0.0.1:5500/home.html">Home</a>
+        <a class="active" href="http://127.0.0.1:5500/adopt.html">Adopt a Pet</a>
+        <a href="http://127.0.0.1:5500/shop.html">Shop</a>
+        <a href="http://127.0.0.1:5500/about.html">About Us</a>
+        <a href="http://127.0.0.1:5500/donate.html">Donate</a>
+         <form>
+             <input class="SearchBar" type="text" placeholder="Search..." size="100">
+             <button type="submit">Search</button>
+         </form> 
+     </div>
+
+     <p align="center"><img src="images/Pet Shelter Logo.jpeg" alt="adoptlogo" width="400px" height="250px"></p>
+     <br/>
+     <p align="center" style="font-size: 24px;" font-weight="bolder">In order for us to make sure whether you are valid or not to adopt a pet, you must fill in the below form.<br>We will reply as soon as possible on your E-mail address to let you know whether you are valid or not.</p>
+     <br/>
+     <form id="survey-form">
+
+      <p id="description"><em>😻 Thank you for wishing to offer a home for our pets! 😻<br><br>Pet Shelter Lebanon</em></p>
+      </div>
+  
+      <div id="todays-date">
+        <label class="main-label" for="todays-date">📅 Today's Date: </label>
+        <input type="date">
+      </div>
+
+      <div id="dogName">
+        <label class="main-label" for="dogNameLabel">😺🐶 Name of the pet you wish to adopt: </label>
+        <input type="text" id="dogNameLabel" placeholder="Pet name here..." required>
+      </div>
+  
+      <div id="first-last-name">
+        <label class="main-label" id="name-label">◆ First Name: </label>
+        <input type="text" id="name" placeholder="Fadi" required>
+  
+        <label class="main-label">◆ Last Name: </label>
+        <input type="text" id="lastName" placeholder="Ayoub" required>
+      </div>
+      <div id="gender">
+        <label for="gender">⚤ Gender: </label>
+        <input type="radio" id="male" name="gender" value="1" required>
+        <label class="main-label" for="male">♂ Male</label>
+        <input type="radio" id="female" name="gender" value="2" required>
+        <label class="main-label" for="female">♀ Female</label>
+      </div>
+  
+      <div id="address">
+        <label class="main-label" for="address1">📍 Address: </label>
+        <input type="text" id="address1" size="30" placeholder="Enter your address here">
+  
+  
+        <label class="main-label" for="city">🏙 City: </label>
+        <input type="text" id="city" size="15" placeholder="Your city">
+  
+        <label class="main-label" for="postcode">📮 Postcode: </label>
+        <input type="text" id="postcode" size="10" placeholder="Postcode">
+  
+      </div>
+ 
+      <div id="email-phone">
+        <label class="main-label" id="phone-label" for="phone">📱 Phone: </label>
+        <input type="tel" id="phone" placeholder="e.g. +961 03 560 827">
+  
+        <label class="main-label" id="email-label" for="email">📧 Email: </label>
+        <input type="email" id="email" placeholder="e.g. myemail@example.com" required size="35">
+  
+      </div>
+      <div id="age">
+        <ul><label class="main-label" for="age">👦 Age of applicant:</label></ul>
+  
+        <li><input type="radio" id="u18" name="age" value="1" required>
+          <label for="u18">Under 18</label></li>
+  
+        <li><input type="radio" id="18" name="age" value="2" required>
+          <label for="18">18 - 24</label></li>
+  
+        <li><input type="radio" id="25" name="age" value="3" required>
+          <label for="25">25 - 34</label></li>
+  
+        <li><input type="radio" id="35" name="age" value="4" required>
+          <label for="35">35 - 44</label></li>
+  
+        <li><input type="radio" id="45" name="age" value="5" required>
+          <label for="45">45 and older</label></li>
+      </div>
+
+      <div id="why">
+        <ul><label class="main-label" for="why">✅ Why do you want to adopt a pet? Please check all that apply:</label></ul>
+        <li><input type="checkbox" name="reason" id="companion" value="companion">
+          <label for="companion">Pet & Companion</label></li>
+  
+        <li><input type="checkbox" name="reason" id="gift" value="gift">
+          <label for="gift">Gift</label></li>
+  
+        <li><input type="checkbox" name="reason" id="breeding" value="breeding">
+          <label for="breeding">Breeding pets</label></li>
+  
+        <li><input type="checkbox" name="reason" id="guard" value="guard">
+          <label for="guard">Guard Dog</label></li>
+  
+        <li><input type="checkbox" name="reason" id="senior" value="senior">
+          <label for="senior">For a Senior</label></li>
+  
+        <li><input type="checkbox" name="reason" id="child" value="child">
+          <label for="child">For a Child</label></li>
+      </div>
+
+      <div id="allergies">
+        <ul><label class="main-label" for="allergies">🏡🤧 Is anyone in your household allergic to pets?</label></ul>
+  
+        <li><input type="radio" id="yes" name="allergy" value="1" required>
+          <label for="yes">Yes</label></li>
+  
+        <li><input type="radio" id="no" name="allergy" value="2" required>
+          <label for="no">No</label></li>
+  
+        <li><input type="radio" id="notsure" name="allergy" value="3" required>
+          <label for="notsure">Not Sure</label></li>
+      </div>
+
+      <div id="pets-household">
+        <ul><label class="main-label" id="number-label">🏡#️⃣ How many pets are already in your household?</label></ul>
+        <li><input type="number" id="number" min="1" max="10" placeholder="0"></li>
+      </div>
+
+      <div id="housing">
+        <label class="main-label">🏡 What type of housing you reside?</label>
+        <select id="dropdown">
+        <option disabled selected value>Select an option</option>
+        <option value="apt">Apartment/Condo</option>
+        <option value="house">House</option>
+        <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div id="questions">
+        <label class="main-label">❓ Any questions regarding our shelter?</label>
+      </div>
+      <div id="textarea">
+        <textarea id="comments"
+          rows="10" cols="70" placeholder="Write here any questions related to our shelter..."></textarea>
+      </div>
+  
+     <div class="button">
+       <input type="submit" id="submit" value="Submit Form"> 
+       <input type="reset" id=reset value="Clear Form">
+     </div>    
+      
+    </form>
+
+
+        <footer>
+            <div class="row primary">
+              <div class="column about">
+            
+              <h3>Pet Shelter&copy;</h3>
+            
+               <p>
+                 Save a Life, Adopt a Pet!<br>
+                 Beirut, Lebanon, 2022
+              </p>
+            
+              <div class="social">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-youtube-square"></i>
+                <i class="fa-brands fa-whatsapp-square"></i>
+              </div>
+            </div>
+            
+            <div class="column links">
+            <h3>Quick Links</h3>
+            
+             <ul>
+            
+              <li>
+               <a href="http://127.0.0.1:5500/home.html">Home</a>
+              </li>
+              <li>
+               <a href="http://127.0.0.1:5500/adopt.html">Adopt a Pet</a>
+              </li>
+              <li>
+               <a href="http://127.0.0.1:5500/shop.html">Our Shop</a>
+              </li>
+              <li>
+               <a href="http://127.0.0.1:5500/about.html">About Us</a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/donate.html">Donate</a>
+               </li>
+             </ul>
+            
+            </div>
+            
+            
+            <div class="column links">
+              <h3>Our Socials</h3>
+               <ul>
+                <li>
+                 <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                </li>
+                <li>
+                 <a href="https://www.instagram.com/petshelterleb/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                <a href="https://www.youtube.com" target="_blank">Youtube</a>
+                </li>
+                <li>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="column subscribe">
+             <h3>Newsletter</h3>
+              <div>
+               <input type="email" placeholder="E-mail address..." />
+               <button>Subscribe</button>
+              </div>
+            
+            </div>
+            
+            </div>
+            
+            <div class="row copyright">
+              <div class="footer-menu">
+            
+              <a href="http://127.0.0.1:5500/home.html">Home</a>
+              <a href="http://127.0.0.1:5500/adopt.html">Adopt</a>
+              <a href="http://127.0.0.1:5500/shop.html">Shop</a>
+              <a href="http://127.0.0.1:5500/about.html">About Us</a>
+              <a href="http://127.0.0.1:5500/donate.html">Donate</a>
+            
+              </div>
+               <p>Copyright &copy;<a href="http://127.0.0.1:5500/home.html">Pet Shelter Lebanon</p></a>
+            </div>
+            </footer>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+.contact-us{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.content {
+    width: 80%;
+    margin: auto;
+}
+* {
+    -webkit-tap-highlight-color: white;
+    -webkit-appearance: none;
+}
+.contact-us h5 {
+font-size: 36px;
+margin: 92px auto 48px;
+font-weight: 400;
+}
+.contact-us .link-item {
+display: inline-block;
+border: 1px solid #E9E9E9;
+height: 80px;
+width: 360px;
+line-height: 80px;
+margin-right: 24px;
+border-radius: 6px;
+margin-bottom: 48px;
+}
+a {
+text-decoration: none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.contact-us .link-item img {
+vertical-align: middle;
+margin-right: 8px;
+}
+.contact-us .link-item span {
+    color: black;
+    font-size: 18px;
+}
+.contact-us p{
+font-size: 14px;
+color: #8c8889;
+margin-bottom: 22px;
+}
+.iconfont {
+font-family: "iconfont_hp" !important;
+font-size: 16px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+}   
+.iconemail:before {
+    content: "\e60e";
+}
+.contact-us p i {
+color: #fe4066;
+}
+.contact-us p a {
+    font-size: 18px;
+    color: #fe4066;
+    padding-bottom: 2px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.contact-us .logos .face {
+    color: #36508c;
+}
